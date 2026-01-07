@@ -1,0 +1,12 @@
+@model Product 
+<form method="post" action="~/Products/Post">
+    <label>
+        Name:
+    </label>
+        <input type="text" asp-for="Name" />    
+    <label>
+        Price:
+    </label>
+        <input type="text" asp-for="Price" />  
+        <button>Submit</button>  
+</form>
